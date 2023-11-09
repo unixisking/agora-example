@@ -1,12 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
+import { GameOne } from '@agora-front/gameOne';
+import { GameTwo } from '@agora-front/gameTwo';
 
-import NxWelcome from './nx-welcome';
+
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="front" />
+      <GameOne />
+      <GameTwo />
     </div>
   );
 }
